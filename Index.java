@@ -4,7 +4,7 @@ import java.awt.event.*;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class FlappyBirdEnhanced extends JFrame {
+public class Index extends JFrame {
     private int birdX = 100, birdY = 200; // Bird's position
     private int birdVelocity = 0, gravity = 1; // Bird physics
     private int obstacleX1 = 800, obstacleX2 = 1100; // Obstacles
@@ -16,7 +16,7 @@ public class FlappyBirdEnhanced extends JFrame {
     private int birdFlapFrame = 0; // Animation frame for flapping
     private ArrayList<int[]> clouds; // Stores cloud positions
 
-    public FlappyBirdEnhanced() {
+    public Index() {
         setTitle("Flappy Bird Animation");
         setSize(800, 600);
         setResizable(false);
@@ -191,6 +191,6 @@ public class FlappyBirdEnhanced extends JFrame {
     }
 
     public static void main(String[] args) {
-        new FlappyBirdEnhanced();
+        new Index();
     }
 }
